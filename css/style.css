@@ -1,0 +1,43 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Roboto+Condensed&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+    /*font-family: 'Roboto Condensed', sans-serif,'Parisienne', cursive;*/
+}
+#wrap {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.hold-section{
+    margin: 85px 0 0 0;
+}
+.hold-banner{
+    background-image: url('../images/logo1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+}
+p.paul, .text-ft {
+    margin: 0;
+}
+#log2-cover{
+    display: block;
+    vertical-align: middle;
+    border-style: none;
+    width: 35%;
+    margin: auto;
+}
+.truip.text-center {
+    border-top: 2px solid #ccddee;
+    padding: 25px 0 0;
+    margin: 250px 0 0 0;
+}
